@@ -1,0 +1,24 @@
+<div>
+    You're logged in as <b>{{mainCtrl.userName}}</b> &bull; <a href="" ng-click="mainCtrl.logout()">log out</a>
+</div>
+
+<div>
+    <table ng-show="mainCtrl.data.length > 0">
+        <thead>
+            <tr>
+                <td>IP</td>
+                <td>Timestamp</td>
+                <td>Action</td>
+                <td>Username</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in mainCtrl.data">
+                <td>{{item.ip}}</td>
+                <td>{{item.timestamp}}</td>
+                <td>{{item.action}}</td>
+                <td>{{item.username}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,27 @@
+{
+  "name": "TestAuthAudit",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexro/TestAuthAudit.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/alexro/TestAuthAudit/issues"
+  },
+  "devDependencies": {
+    "express-jwt": "~0.5.1",
+    "jsonwebtoken": "~1.2.0",
+    "body-parser": "~1.9.3",
+    "express": "~4.10.4",
+    "mongoose": "~3.8.19",
+    "protractor": "~1.4.0"
+  }
+}
